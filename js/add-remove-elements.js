@@ -35,16 +35,16 @@ list.appendChild(newListItem);
 //Removing elements from DOM
 
 //1. Grab the list item "Three", identifying it as the third <li> element on the page.
-let removeMe3 = document.getElementsByTagName('li')[3];
+let removeMe2 = document.getElementsByTagName('li')[2];
 
 
 //2. Finally, we will use the removeChild method to remove our selected value
+list.removeChild(removeMe2);
+
+
+let removeMe3= document.getElementsByTagName('li')[3];
 list.removeChild(removeMe3);
 
 
-let removeMe4= document.getElementsByTagName('li')[4];
+let removeMe4 = document.getElementsByTagName('li')[4];
 list.removeChild(removeMe4);
-
-
-let removeMe5 = document.getElementsByTagName('li')[5];
-list.removeChild(removeMe5);
